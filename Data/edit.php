@@ -93,12 +93,12 @@ if (isset($_POST['tambah'])) {
 
      <div class="col-sm-10">
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="peminatan" name="peminatan" value="<?=$mahasiswa_baru['peminatan']?>" >
+                    <input class="form-check-input" type="checkbox" id="peminatan" name="peminatan" value="<?=$mahasiswa_baru['peminatan']?>" placeholder="Teknik Telekomunikasi" >
                     <label class="form-check-label" for="peminatan">Teknik Telekomunikasi</label>
                </div>
 
             <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="peminatan" name="peminatan" value="<?=$mahasiswa_baru['peminatan']?>" >
+                    <input class="form-check-input" type="checkbox" id="peminatan" name="peminatan" value="<?=$mahasiswa_baru['peminatan']?>" placeholder="Teknik Informatika" >
                     <label class="form-check-label" for="peminatan">Teknik Informatika</label>
             </div>
      </div>
